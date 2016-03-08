@@ -8,9 +8,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.yeapin.androidproject.MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/newActivityBtn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="跳转至新的Activity" />
+
+    <Button
+        android:id="@+id/dialogActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newActivityBtn"
+        android:layout_marginTop="5dp"
+        android:text="对话框风格Activity" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogActivityBtn"
+        android:layout_marginTop="5dp"
+        android:text="退出程序" />
 
 </RelativeLayout>
