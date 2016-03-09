@@ -5,5 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_hello">HelloActivity</string>
+    <string name="title_activity_world">WorldActivity</string>
+    <string name="title_activity_start_mode">StartModeActivity</string>
+    <string name="title_activity_standard_mode">StandardModeActivity</string>
+    <string name="title_activity_single_top_mode">SingleTopModeActivity</string>
+    <string name="title_activity_single_task_mode">SingleTaskModeActivity</string>
 
 </resources>
