@@ -9,8 +9,22 @@
     tools:context="com.yeapin.androidproject.SingleTaskModeActivity" >
 
     <TextView
+        android:id="@+id/singleTaskText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="跳回自己"
+	    android:layout_below="@id/singleTaskText"
+	    android:id="@+id/singleTaskBtn1"
+	    />
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="跳转至WorldActivity"
+	    android:layout_below="@id/singleTaskBtn1"
+	    android:id="@+id/singleTaskBtn2"
+	    />
 </RelativeLayout>

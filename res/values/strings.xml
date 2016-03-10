@@ -10,5 +10,6 @@
     <string name="title_activity_standard_mode">StandardModeActivity</string>
     <string name="title_activity_single_top_mode">SingleTopModeActivity</string>
     <string name="title_activity_single_task_mode">SingleTaskModeActivity</string>
+    <string name="title_activity_single_instance_mode">SingleInstanceModeActivity</string>
 
 </resources>

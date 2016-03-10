@@ -8,19 +8,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.yeapin.androidproject.WorldActivity" >
 
-    <Button 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="跳转至SingleActivity"
-        android:id="@+id/worldBtn"
-        />
-    
     <TextView
         android:id="@+id/worldText"
-        android:layout_below="@id/worldBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/worldBtn"
+        android:layout_alignParentTop="true"
         android:text="@string/hello_world" />
-    
+
+    <Button
+        android:id="@+id/worldBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/worldText"
+        android:text="跳转至SingleTopActivity" />
+
+    <Button
+        android:id="@+id/singleTaskBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/worldBtn"
+        android:text="跳转至SingleTaskActivity" />
+
+    <Button
+        android:id="@+id/singleInstanceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/singleTaskBtn"
+        android:text="跳转至SingleInstanceActivity" />
 
 </RelativeLayout>
