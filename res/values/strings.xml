@@ -13,5 +13,7 @@
     <string name="title_activity_single_instance_mode">SingleInstanceModeActivity</string>
     <string name="title_activity_hometown">HometownActivity</string>
     <string name="title_activity_city">CityActivity</string>
+    <string name="title_activity_intent_demo">IntentDemoActivity</string>
+    <string name="title_activity_intent_demo2">IntentDemo2Activity</string>
 
 </resources>
