@@ -16,5 +16,7 @@
     <string name="title_activity_intent_demo">IntentDemoActivity</string>
     <string name="title_activity_intent_demo2">IntentDemo2Activity</string>
     <string name="title_activity_content_provider_demo">ContentProviderDemoActivity</string>
+    <string name="title_activity_action_bar_demo">ActionBarDemoActivity</string>
+    <string name="title_activity_hhh">HHHActivity</string>
 
 </resources>
