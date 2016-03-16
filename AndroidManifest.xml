@@ -16,7 +16,6 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-            
         </activity>
         <activity
             android:name=".HelloActivity"
@@ -58,27 +57,32 @@
             android:name=".CityActivity"
             android:label="@string/title_activity_city" >
             <intent-filter>
-                <action android:name="com.yeapin.demo.intent.action.DemoAction"/>
+                <action android:name="com.yeapin.demo.intent.action.DemoAction" />
                 <!-- 至少要包含一个category -->
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.yeapin.demo.intent.IntentDemoActivity"
             android:label="@string/title_activity_intent_demo" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name="com.yeapin.demo.intent.IntentDemo2Activity"
             android:label="@string/title_activity_intent_demo2" >
             <intent-filter>
-                <action android:name="com.yeapin.demo.intent.action.DemoAction"/>
+                <action android:name="com.yeapin.demo.intent.action.DemoAction" />
                 <!-- 至少要包含一个category -->
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yeapin.demo.contentprovider.ContentProviderDemoActivity"
+            android:label="@string/title_activity_content_provider_demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
