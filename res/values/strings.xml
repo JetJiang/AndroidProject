@@ -18,5 +18,6 @@
     <string name="title_activity_content_provider_demo">ContentProviderDemoActivity</string>
     <string name="title_activity_action_bar_demo">ActionBarDemoActivity</string>
     <string name="title_activity_hhh">HHHActivity</string>
+    <string name="title_activity_get_contacts_demo">GetContactsDemoActivity</string>
 
 </resources>

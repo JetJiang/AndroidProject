@@ -10,7 +10,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
+/**
+ * 对自定义ContentProvider进行操作
+ * @author Jet
+ * 2016年3月16日
+ */
 public class ContentProviderDemoActivity extends Activity {
 	ContentResolver contentResolver;
 	Uri uri = Uri.parse("content://com.demo.providers.firstprovider/");

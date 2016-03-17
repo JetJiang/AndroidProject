@@ -78,11 +78,15 @@
         <activity
             android:name="com.yeapin.demo.contentprovider.ContentProviderDemoActivity"
             android:label="@string/title_activity_content_provider_demo" >
-            
         </activity>
         <activity
             android:name="com.yeapin.demo.actionbar.ActionBarDemoActivity"
             android:label="@string/title_activity_action_bar_demo" >
+            
+        </activity>
+        <activity
+            android:name="com.yeapin.demo.contentprovider.GetContactsDemoActivity"
+            android:label="@string/title_activity_get_contacts_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -90,5 +94,6 @@
             </intent-filter>
         </activity>
     </application>
-
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
 </manifest>
