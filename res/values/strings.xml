@@ -19,5 +19,6 @@
     <string name="title_activity_action_bar_demo">ActionBarDemoActivity</string>
     <string name="title_activity_hhh">HHHActivity</string>
     <string name="title_activity_get_contacts_demo">GetContactsDemoActivity</string>
+    <string name="title_activity_book">BookActivity</string>
 
 </resources>

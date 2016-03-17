@@ -82,18 +82,28 @@
         <activity
             android:name="com.yeapin.demo.actionbar.ActionBarDemoActivity"
             android:label="@string/title_activity_action_bar_demo" >
-            
         </activity>
         <activity
             android:name="com.yeapin.demo.contentprovider.GetContactsDemoActivity"
             android:label="@string/title_activity_get_contacts_demo" >
+            
+        </activity>
+        <activity
+            android:name="com.yeapin.demo.fragment.BookActivity"
+            android:label="@string/title_activity_book" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name="com.yeapin.demo.fragment.BookDetailActivity"
+            android:label="BookDetailActivity"
+            ></activity>
     </application>
-	<uses-permission android:name="android.permission.READ_CONTACTS"/>
-	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
 </manifest>
